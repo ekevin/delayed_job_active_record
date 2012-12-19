@@ -16,8 +16,8 @@ Gem::Specification.new do |s|
   s.require_paths     = ["lib"]
   s.test_files        = Dir.glob('spec/**/*')
 
-  s.add_runtime_dependency     'activerecord', ['>= 2.1.0', '< 4']
-  s.add_runtime_dependency     'delayed_job',  '~> 3.0'
+  s.add_runtime_dependency     'activerecord'
+  s.add_runtime_dependency     'delayed_job'
 
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec'
